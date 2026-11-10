@@ -4,3 +4,7 @@ on:
   types[opened]
 permission:
   pull_request : write
+jobs:
+  welcome:
+  name: Post welcome content 
+  runs-on: ubuntu-latest 
